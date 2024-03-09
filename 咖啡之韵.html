@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>咖啡之韵</title>
+    <link rel="stylesheet" href="1.css">
+</head>
+<style>
+/* 导航栏 */
+    *{
+        padding:0;
+        margin: 0;
+    }
+/* 首页滚动 */
+    .shell{
+        height:100vh;
+        overflow-x: hidden;
+        perspective: 3px;
+    }
+    .shell div{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-style: 30px;
+        letter-spacing: 2px;
+    }
+    .image{
+        transform: translateZ(-1px) scale(1.6);
+        background-size: cover;
+        height: 100vh;
+        z-index: -1;
+    }
+    .text{
+        height: 50vh;
+        background-color: #fff;
+    }
+    .text h2{
+        color:black;
+    }
+    .heading{
+        z-index: -1;
+        transform: translateY(-30vh) translateZ(1px);
+        color: #fff;
+        font-size: 30px;
+    }
+
+</style>
+<body>
+<!-- 导航栏 -->
+    <header>
+        <div class="box">
+        <div class="container">
+        <h1>咖啡之韵</h1>
+    </header>
+    <nav>    
+    <ul class="navlist">    
+        <li><a href="咖啡之韵.html">首页</a></li>
+        <li><a href="咖啡的介绍.html" target="_blank">咖啡介绍</a></li>
+        <li><a href="咖啡品牌.html" target="_blank">咖啡品牌</a></li>
+        <li><a href="咖啡豆品种.html" target="_blank">咖啡豆品种</a></li>
+        <li><a href="制作过程.html" target="_blank">制作过程</a></li>
+    </ul>
+    </nav>
+    </div>
+    </div>
+
+<!-- 首页滚动 -->
+<div class="shell">
+    <div class="image" style="background-image:url('https://img1.baidu.com/it/u=148440419,2591094356&fm=253&fmt=auto&app=138&f=JPEG?w=889&h=500')"></div>
+    <div class="heading">
+        <h2>天上的星星已经够细粒了，树却努力把星光筛的更细，仿若极棉幼的白糖霜，落在你黑黝黝的梦之咖啡里。</h2>
+    </div>
+    <div class="text">
+        <h2>日子温暖有光，咖啡醇厚幽香</h2>
+    </div>
+
+    <div class="image" style="background-image:url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fsafe-img.xhscdn.com%2Fbw1%2F9056101a-5e4f-41bc-9e6e-edbc70bc17f0%3FimageView2%2F2%2Fw%2F1080%2Fformat%2Fjpg&refer=http%3A%2F%2Fsafe-img.xhscdn.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1701679860&t=f4b3c83b7bdc2e88d36e34e6d94121d3')"></div>
+    <div class="heading">
+        <h2>微风拂过，一缕闲长，深情慢歌，凝视远方，咔香弥漫，魂牵梦绕。</h2>
+    </div>
+    <div class="text">
+        <h2>喜欢苦一点的咖啡和浪漫的秋天</h2>
+    </div>
+
+    <div class="image" style="background-image:url('https://n1image.hjfile.cn/mh/2018/06/25/83bb3949cbbce62d608d1ba78f3f4ef6.jpg')"></div>
+    <div class="heading">
+        <h2>一滴馨香入口，却是世间百态。淡淡回味却不及黄连还未有蜜糖甘。个中滋味却是蕴藏无穷。</h2>
+    </div>
+    <div class="text">
+        <h2>寻一方静室，品一杯咖啡</h2>
+    </div>
+
+    <div class="image" style="background-image:url('https://img1.baidu.com/it/u=2427446784,4088441706&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=500')"></div>
+    <div class="heading">
+        <h2>阅尽书中岁月，看遍山水铅华，暂停时光的匆忙，给自己一杯咖啡的从容。</h2>
+    </div>
+</div>
+
+<!-- 背景音乐 -->
+<audio controls autoplay>
+    <source  src="MP3/White Cherry - MELANCHOLY.ogg">
+    </audio>        
+</body>
